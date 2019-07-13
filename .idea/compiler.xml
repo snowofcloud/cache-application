@@ -7,8 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="redis-article" />
+        <module name="boot-cache" />
         <module name="redis-test" />
         <module name="redis-redpack" />
+        <module name="mvc-cache" />
       </profile>
     </annotationProcessing>
   </component>

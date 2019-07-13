@@ -12,7 +12,7 @@
         <module>redis-article</module>
         <module>redis-redpack</module>
         <module>redis-test</module>
+        <module>distributed-cache</module>
     </modules>
-
 
 </project>
