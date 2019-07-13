@@ -11,6 +11,7 @@
     <modules>
         <module>redis-article</module>
         <module>redis-redpack</module>
+        <module>redis-test</module>
     </modules>
 
 

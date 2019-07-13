@@ -2,18 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf5ad919-565c-4220-bf1f-4d50cfbe7d4a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/redis-article/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-article/src/test/java/com/bob/cache/TestRedisArticle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-redpack/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-redpack/redis-redpack.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-redpack/src/main/java/com/bob/cache/basic/Basic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-redpack/src/main/java/com/bob/cache/main/MainTestRedPack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-redpack/src/main/java/com/bob/cache/redpack/GenRedPack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-redpack/src/main/java/com/bob/cache/redpack/GetRedPack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-redpack/src/main/java/com/bob/cache/utils/JedisUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-redpack/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis-redpack/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/redis-test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/cache/jedis/RedisTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/cache/test/BobJedis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/cache/test/SocketRedisServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis-test/src/main/java/cache/test/TestFirst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -45,22 +40,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/redis-article/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="45" column="44" lean-forward="true" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+            <state relative-caret-position="417">
+              <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/redis-article/src/test/java/com/bob/cache/TestRedisArticle.java">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/redis-redpack/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/redis-redpack/pom.xml">
+        <entry file="file://$PROJECT_DIR$/redis-test/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
+            <state relative-caret-position="748">
+              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -84,6 +83,7 @@
         <option value="$PROJECT_DIR$/redis-redpack/src/main/java/com/bob/cache/redpack/GetRedPack.java" />
         <option value="$PROJECT_DIR$/redis-article/src/test/java/cache/TestRedisArticle.java" />
         <option value="$PROJECT_DIR$/redis-article/src/test/java/com/bob/cache/TestRedisArticle.java" />
+        <option value="$PROJECT_DIR$/redis-test/pom.xml" />
       </list>
     </option>
   </component>
@@ -96,8 +96,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="378" />
-    <option name="y" value="82" />
+    <option name="x" value="616" />
+    <option name="y" value="14" />
     <option name="width" value="1692" />
     <option name="height" value="918" />
   </component>
@@ -118,63 +118,27 @@
             <path>
               <item name="cache-application" type="b2602c69:ProjectViewProjectNode" />
               <item name="cache-application" type="462c0819:PsiDirectoryNode" />
-              <item name="redis-article" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cache-application" type="b2602c69:ProjectViewProjectNode" />
               <item name="cache-application" type="462c0819:PsiDirectoryNode" />
-              <item name="redis-article" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="cache-application" type="b2602c69:ProjectViewProjectNode" />
               <item name="cache-application" type="462c0819:PsiDirectoryNode" />
-              <item name="redis-article" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-test" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cache-application" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cache-application" type="462c0819:PsiDirectoryNode" />
+              <item name="redis-test" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cache-application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cache-application" type="462c0819:PsiDirectoryNode" />
-              <item name="redis-article" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cache-application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cache-application" type="462c0819:PsiDirectoryNode" />
-              <item name="redis-redpack" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cache-application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cache-application" type="462c0819:PsiDirectoryNode" />
-              <item name="redis-redpack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cache-application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cache-application" type="462c0819:PsiDirectoryNode" />
-              <item name="redis-redpack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cache-application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cache-application" type="462c0819:PsiDirectoryNode" />
-              <item name="redis-redpack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cache-application" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cache-application" type="462c0819:PsiDirectoryNode" />
-              <item name="redis-redpack" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,7 +151,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/redis-redpack/src/main" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/redis-test/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -200,6 +164,7 @@
       <recent name="cache" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\java\Idea201901\IntelliJ IDEA201901_project01\cache-application\redis-test\src\main\java" />
       <recent name="E:\java\Idea201901\IntelliJ IDEA201901_project01\cache-application\redis-redpack\src\main" />
       <recent name="E:\java\Idea201901\IntelliJ IDEA201901_project01\cache-application\redis-redpack\src\main\java" />
       <recent name="E:\java\Idea201901\IntelliJ IDEA201901_project01\cache-application\redis-article\src\main\resources" />
@@ -228,7 +193,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563001182164</updated>
-      <workItem from="1563001184737" duration="1982000" />
+      <workItem from="1563001184737" duration="2226000" />
     </task>
     <task id="LOCAL-00001" summary="缓存应用-redis限时投票">
       <created>1563002238650</created>
@@ -237,14 +202,22 @@
       <option name="project" value="LOCAL" />
       <updated>1563002238651</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="缓存应用-redis抢红包">
+      <created>1563003283253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563003283253</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1982000" />
+    <option name="totallyTimeSpent" value="2226000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="378" y="82" width="1692" height="918" extended-state="0" />
+    <frame x="616" y="60" width="1692" height="918" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -284,7 +257,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="缓存应用-redis限时投票" />
-    <option name="LAST_COMMIT_MESSAGE" value="缓存应用-redis限时投票" />
+    <MESSAGE value="缓存应用-redis抢红包" />
+    <option name="LAST_COMMIT_MESSAGE" value="缓存应用-redis抢红包" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/redis-article/src/main/java/com/bob/cache/utils/JedisUtils.java">
@@ -357,13 +331,6 @@
     <entry file="file://$PROJECT_DIR$/redis-redpack/src/main/java/com/bob/cache/redpack/GenRedPack.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-redpack/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1188">
-          <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/redis-redpack/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -371,15 +338,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-article/pom.xml">
+    <entry file="file://$PROJECT_DIR$/redis-article/src/test/java/com/bob/cache/TestRedisArticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="45" column="44" lean-forward="true" selection-start-line="45" selection-start-column="44" selection-end-line="45" selection-end-column="44" />
+        <state relative-caret-position="-949">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/redis-article/src/test/java/com/bob/cache/TestRedisArticle.java">
+    <entry file="file://$PROJECT_DIR$/redis-test/src/main/java/cache/test/BobJedis.java">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-article/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-test/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/redis-redpack/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
